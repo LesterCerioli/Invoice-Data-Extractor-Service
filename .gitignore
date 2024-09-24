@@ -1,0 +1,71 @@
+# General ignores for all operating systems
+*.obj
+*.o
+*.a
+*.lo
+*.la
+*.al
+*.so
+*.so.*
+*.dylib
+*.lib
+*.dll
+*.exe
+*.out
+*.class
+*.pyc
+*.pyo
+*.pdb
+*.ilk
+*.idb
+*.DS_Store
+*.dSYM
+*.swp
+*.swo
+*.sln
+*.log
+*.vscode/
+.idea/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+compile_commands.json
+
+# Build directories (usually named "build" or "out")
+build/
+out/
+bin/
+lib/
+dist/
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio related
+.vscode/
+.vs/
+*.vcxproj*
+*.user
+*.suo
+*.sln
+*.aps
+*.ncb
+*.opt
+*.plg
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# Backup files
+*~
+*.bak
+*.orig
+*.save
